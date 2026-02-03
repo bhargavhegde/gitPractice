@@ -10,3 +10,14 @@ class Calculator:
 
 obj=Calculator()
 print(obj.multiply(10, 20))
+        def add(self, a, b):
+              sum = 0
+              sum = a+b
+
+              return sum
+
+        def subtract(self, a, b):
+               diff = 0 
+               diff = a-b 
+               
+               return diff
