@@ -1,3 +1,5 @@
+import math
+
 class Calculator:
         def __init__(self):
             print("Calculator initialized")
@@ -8,8 +10,7 @@ class Calculator:
         def divide(self, a, b):
             return a / b
 
-obj=Calculator()
-print(obj.multiply(10, 20))
+
         def add(self, a, b):
               sum = 0
               sum = a+b
@@ -21,3 +22,9 @@ print(obj.multiply(10, 20))
                diff = a-b 
                
                return diff
+
+        def sqrt(self, a):
+            return math.sqrt(a)
+
+obj=Calculator()
+print(obj.multiply(10, 20))
