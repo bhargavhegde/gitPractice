@@ -19,20 +19,6 @@ class Calculator:
         def power(self, a, b):
             return a**b
 
-
-
-        def add(self, a, b):
-              sum = 0
-              sum = a+b
-
-              return sum
-
-        def subtract(self, a, b):
-               diff = 0 
-               diff = a-b 
-               
-               return diff
-
         def sqrt(self, a):
             return math.sqrt(a)
 
@@ -43,3 +29,4 @@ print(obj.subtract(10, 20))
 print(obj.multiply(10, 20))
 print(obj.divide(10, 20))
 print(obj.power(10, 20))
+print(obj.sqrt(100))
